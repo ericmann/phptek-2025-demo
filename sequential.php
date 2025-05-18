@@ -1,6 +1,10 @@
 <?php
 // urls to fetch
 $urls = [
+    'AMPHP'              => 'https://amphp.org/',
+    'ReactPHP'           => 'https://reactphp.org/',
+    'OpenSwoole'         => 'https://openswoole.com/',
+    'Pecl'               => 'https://pecl.php.net/',
     'PHP.net'            => 'https://www.php.net/',
     'Wikipedia'          => 'https://en.wikipedia.org/wiki/PHP',
     'php[tek]'           => 'https://phptek.io/',

@@ -12,6 +12,8 @@ The goal is to showcase how asynchronous programming can significantly reduce th
 
 *   `concurrent.php`: Fetches the content of the same websites concurrently using `amp/http-client`. It creates an array of Futures, each representing an asynchronous request. The script then awaits all requests to complete, measuring the time taken for each and the total time.
 
+*   `fibers.php`: Demonstrates PHP Fibers, a low-level concurrency primitive introduced in PHP 8.1. The script shows how a Fiber can be started, suspended, and resumed, allowing manual control over execution flow. This is useful for understanding the building blocks of async frameworks like Amp.
+
 ## Setup
 
 1.  **Install PHP:** Ensure you have PHP 8.3 or higher installed.
@@ -40,6 +42,14 @@ The goal is to showcase how asynchronous programming can significantly reduce th
     ```
 
     This will output the time taken to fetch each website's content concurrently, along with the total time.
+
+3.  **Run Fiber Demo Script:**
+
+    ```bash
+    php fibers.php
+    ```
+
+    This will demonstrate the usage of PHP Fibers, showing how they can be started, suspended, and resumed.
 
 ## Expected Results
 
